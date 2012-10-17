@@ -1,0 +1,30 @@
+0	1	mikroCPIC32.exe -MSF -DBG -pP32MX460F512L -DL -SSA -EBASE 0x9FC01000 -INTDEF MV_SRS7_IS32 -O11111114 -fo80 -N"C:\Users\dsi\Desktop\Snowburst\Development\snowburst_Code\mikroC PRO for PIC32\snowburst.mcp32" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\uses\" -SP"C:\Users\dsi\Desktop\Snowburst\Development\snowburst_Code\mikroC PRO for PIC32\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Packages\mikromedia Workstation PIC32\Uses\" -IP"C:\Users\dsi\Desktop\Snowburst\Development\snowburst_Code\mikroC PRO for PIC32\" "snowburst_main.c" "snowburst_events_code.c" "snowburst_driver.c" "snowburst_resources.c" "extras.c" "mp3_player.c" "__Lib_CP0.emcl" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_System.emcl" "__Lib_SoftResetDma.emcl" "__Lib_Delays.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_CMath.emcl" "__Lib_Conversions.emcl" "__Lib_ADC.emcl" "__Lib_I2C_12.emcl" "__Lib_SPI_12.emcl" "__Lib_UART_12.emcl" "__Lib_Mmc.emcl" "__Lib_MmcFat16.emcl" "__Lib_MmcFat16Constants.emcl" "__Lib_TFT.emcl" "__Lib_TouchPanel_TFT.emcl" "__Lib_mikroMedia_Workstation_PIC32.emcl"	 
+diagnostics: 0	126	All files Preprocessed in 3135 ms	 
+diagnostics: 0	122	Compilation Started	snowburst_objects.h
+warning: 100	1504	Initialization of extern object 'play_next_song'	snowburst_main.c
+diagnostics: 1037	123	Compiled Successfully	snowburst_main.c
+hint: 204	1164	Variable 'i' has been eliminated by optimizer	snowburst_main.c
+hint: 205	1164	Variable 'flake_size' has been eliminated by optimizer	snowburst_main.c
+hint: 359	1164	Variable 'offset' has been eliminated by optimizer	snowburst_main.c
+hint: 517	1164	Variable 'tapped_flake_size' has been eliminated by optimizer	snowburst_main.c
+hint: 629	1164	Variable 'random_x' has been eliminated by optimizer	snowburst_main.c
+hint: 942	1164	Variable 'loop' has been eliminated by optimizer	snowburst_main.c
+diagnostics: 0	122	Compilation Started	snowburst_objects.h
+diagnostics: 26	123	Compiled Successfully	snowburst_objects.h
+diagnostics: 0	122	Compilation Started	snowburst_objects.h
+diagnostics: 243	123	Compiled Successfully	snowburst_driver.c
+diagnostics: 0	122	Compilation Started	snowburst_resources.c
+diagnostics: 5725	123	Compiled Successfully	snowburst_resources.c
+diagnostics: 0	122	Compilation Started	extras.c
+diagnostics: 91	123	Compiled Successfully	extras.c
+diagnostics: 0	122	Compilation Started	mp3_player.c
+diagnostics: 429	123	Compiled Successfully	mp3_player.c
+hint: 196	1164	Variable 'volume' has been eliminated by optimizer	mp3_player.c
+diagnostics: 0	127	All files Compiled in 3666 ms	 
+hint: 0	1144	Used RX: 22 (69%)   Free RX: 10 (31%)	Used RX: 22 (69%)   Free RX: 10 (31%)
+hint: 0	1144	Static RAM (bytes): 2159   Dynamic RAM (bytes): 30605	Static RAM (bytes): 2159   Dynamic RAM (bytes): 30605
+hint: 0	1144	Used ROM (bytes): 88126 (17%)  Free ROM (bytes): 436162 (83%)	Used ROM (bytes): 88126 (17%)  Free ROM (bytes): 436162 (83%)
+diagnostics: 0	125	Project Linked Successfully	snowburst.mcp32
+diagnostics: 0	128	Linked in 1264 ms	 
+diagnostics: 0	129	Project 'snowburst.mcp32' completed: 9204 ms	 
+diagnostics: 0	103	Finished successfully: 22 Sep 2012, 19:25:22	snowburst.mcp32
